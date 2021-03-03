@@ -1,0 +1,198 @@
+/*/*/*/*
+
+
+body{
+	  font-family: "Sofia", sans-serif;
+}
+.weekly-item{
+	display: flex;
+	align-items: center;
+	padding: 12px 0;
+	border-bottom:1px solid #EEEEEE;
+}
+.weekly-item .so{
+	font-size: 20px;
+	padding: 0 8px;
+}
+.weekly-item .thongtin{
+	font-size: 14px;
+	flex-grow: 1;
+}
+.weekly-item .casi{
+	font-size: 12px;
+	color: #999;
+}
+.weekly-item .tieude{
+	padding-bottom: 8px;
+}
+.weekly-item .luotxem{
+	font-size: 13px;
+	color: #999;
+}
+
+
+.album{
+	width: 240px;
+	height: 240px;
+	margin-top: 8px;
+	background-color: #ddd;
+	/*('https://loremflickr.com/320/240'*/
+/*	background-image: url('https://loremflickr.com/320/240');
+	background-size: cover;
+	background-position: center;
+	font-family: Arial,sans-serif;
+}
+.album .trunggian{
+	height: 100%;
+	display: flex;
+	align-items: flex-end;
+	padding: 8px;
+	font-size: 40px;
+	color: #fff;
+	box-sizing: border-box;
+}
+.albumAndtitle{
+	display: flex;
+	margin-top: 20px;
+
+}
+
+.albumAndtitle .album{
+
+}
+.albumAndtitle .noidungAlbum{
+	flex-grow: 1;
+}
+
+.noidungAlbum .tieude{
+	padding-left:15px;
+	padding-top: 20px;
+
+}
+.noidungAlbum .casi{
+	padding-left:15px;
+	padding-top: 10px;
+	color: #999;
+}
+.noidungAlbum .luotxem{
+	padding-left:15px;
+	padding-top: 10px;
+	color: #999;
+}
+
+.albumplay{
+	width: 240px;
+	height: 240px;
+	margin-top: 8px;
+	background-color: #ddd;
+	/*('https://loremflickr.com/320/240'*/
+	/*background-image: url('https://loremflickr.com/320/240');
+	background-size: cover;
+	background-position: center;
+	font-family: Arial,sans-serif;
+	color: #fff;
+}
+
+.albumplay .ogiua{
+	height: 100%;
+	background-color: rgba(0,0,0,0.6);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+}
+
+.albumplay:hover .ogiua{
+	opacity: 1;
+}
+*/
+/*position*/
+/*.containera{
+
+}
+.box{
+	width: 200px;
+	height: 200px;
+	color: #fff;
+	font-size: 40px;
+
+
+}
+.red{
+	background-color: red;
+
+}
+.blue{
+	background-color: blue;
+	position: relative;
+
+}
+.green{
+	background-color: green;
+}
+.fix{
+	position: fixed;
+	top: 10px;
+	right: 10px;
+}
+*/
+/*.containera{
+	width: 400px;
+	height: 400px;
+	background-color: #ddd;
+
+}
+.containerb{
+	width: 300px;
+	height: 300px;
+	background-color: #888;
+
+
+}
+.containerc{
+	width: 200px;
+	height: 200px;
+	background-color: #0f517f;
+	position:absolute;
+	right: 100px;
+	
+
+}*/
+
+body{
+	/*font-family: Arial,sans-serif;*/
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	background-color: black;
+
+
+}
+.menu > li{
+	color: #fff;
+}
+.menu li{
+	padding: 8px 16px;
+}
+.menu li:hover{
+	background-color: #ddd;
+	color: black;
+}
+.has-menu{
+	position: relative;
+}
+
+.has-menu:hover .submenu{
+	display: block;
+}
+.submenu{
+	list-style: none;
+	padding: 0;
+	position: absolute;
+	display: none;
+	top: 100%;
+	left: 0;
+
+}
